@@ -1,3 +1,4 @@
+-- komnentar
 CREATE DATABASE test;
 USE test;
 CREATE TABLE tocka(
