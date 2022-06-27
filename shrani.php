@@ -9,6 +9,7 @@
 <body>
 
 <h1>DElo s PB</h1>
+<p>PA še nekaj</p>
 <?php
    $servername = "localhost";
    $username = "root";
