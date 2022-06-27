@@ -12,16 +12,16 @@
 <p>PA še nekaj</p>
 <?php
   echo "Mimo testa";
-  //  $servername = "localhost";
-  //  $username = "dusan";
-  //  $password = "fugina";
-  //  $dbname = "test";
+   $servername = "localhost";
+   $username = "dusan";
+   $password = "fugina";
+   $dbname = "test";
    
-  //  // Create connection
-  //  $conn = mysqli_connect($servername, $username, $password, $dbname);
-  //  // Check connection
-  //  echo "Mimo testa";
-  //  $sql = "INSERT INTO tocka (a, b)    VALUES (1,2)";
+   // Create connection
+   $conn = mysqli_connect($servername, $username, $password, $dbname);
+   // Check connection
+   echo "Mimo testa";
+   $sql = "INSERT INTO tocka (a, b)    VALUES (1,2)";
    ?>
 <!--    
    if (!$conn) {
