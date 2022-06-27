@@ -11,15 +11,19 @@
 <h1>DElo s PB</h1>
 <p>PA še nekaj</p>
 <?php
-   $servername = "localhost";
-   $username = "root";
-   $password = "dusan";
-   $dbname = "test";
+  echo "Mimo testa";
+  //  $servername = "localhost";
+  //  $username = "dusan";
+  //  $password = "fugina";
+  //  $dbname = "test";
    
-   // Create connection
-   $conn = mysqli_connect($servername, $username, $password, $dbname);
-   // Check connection
-   echo "Mimo testa";
+  //  // Create connection
+  //  $conn = mysqli_connect($servername, $username, $password, $dbname);
+  //  // Check connection
+  //  echo "Mimo testa";
+  //  $sql = "INSERT INTO tocka (a, b)    VALUES (1,2)";
+   ?>
+<!--    
    if (!$conn) {
      die("Connection failed: " . mysqli_connect_error());
    }
@@ -35,7 +39,7 @@
    
    mysqli_close($conn);
 
-?>
+?> -->
 </body>
 </html>
 
