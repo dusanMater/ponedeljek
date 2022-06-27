@@ -20,8 +20,10 @@
    // Create connection
    $conn = mysqli_connect($servername, $username, $password, $dbname);
    // Check connection
-   echo "Mimo testa";
-   $sql = "INSERT INTO tocka (a, b)    VALUES (1,2)";
+    echo "Mimo testa";
+    $sql = "INSERT INTO tocka (a, b)    VALUES (1,2)";
+    mysqli_query($conn, $sql);
+    mysqli_close($conn);
    ?>
 <!--    
    if (!$conn) {
