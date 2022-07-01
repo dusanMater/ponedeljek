@@ -30,6 +30,8 @@
     $sql = "INSERT INTO student (email, ime, priimek) VALUES ('$email','$ime','$priimek');";
     mysqli_query($conn, $sql);
     mysqli_close($conn);
+
+    echo "<a href='izpis.php'>izpis študentov</a>";
    ?>
 <!--    
    if (!$conn) {
