@@ -21,7 +21,7 @@
    $conn = mysqli_connect($servername, $username, $password, $dbname);
    // Check connection
    
-    $sql = "INSERT INTO student (email, ime, priimek) VALUES ('meta.horvat','meta','horvat');";
+    $sql = "INSERT INTO student (email, ime, priimek) VALUES ('peter.klepec','peter','klepec');";
     mysqli_query($conn, $sql);
     mysqli_close($conn);
    ?>
