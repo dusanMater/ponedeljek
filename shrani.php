@@ -8,20 +8,20 @@
 </head>
 <body>
 
-<h1>DElo s PB</h1>
-<p>PA še nekaj</p>
+<h1>Delo s PB</h1>
+<p>Pa še nekaj</p>
 <?php
-  echo "Mimo testa";
+  
    $servername = "localhost";
-   $username = "dusan";
-   $password = "fugina";
-   $dbname = "test";
+   $username = "dusan1";
+   $password = "123456";
+   $dbname = "alma_mater_db";
    
    // Create connection
    $conn = mysqli_connect($servername, $username, $password, $dbname);
    // Check connection
-    echo "Mimo testa";
-    $sql = "INSERT INTO tocka (a, b)    VALUES (1,2)";
+   
+    $sql = "INSERT INTO student (email, ime, priimek) VALUES ('meta.horvat','meta','horvat');";
     mysqli_query($conn, $sql);
     mysqli_close($conn);
    ?>
