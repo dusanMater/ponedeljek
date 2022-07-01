@@ -12,16 +12,22 @@
 <p>Pa še nekaj</p>
 <?php
   
-   $servername = "localhost";
-   $username = "dusan1";
-   $password = "123456";
-   $dbname = "alma_mater_db";
+    $servername = "localhost";
+    $username = "dusan1";
+    $password = "123456";
+    $dbname = "alma_mater_db";
    
+    $email = $_POST["email"];
+    $ime = $_POST["ime"];
+    $priimek = $_POST["priimek"];
+
+
+
    // Create connection
    $conn = mysqli_connect($servername, $username, $password, $dbname);
    // Check connection
    
-    $sql = "INSERT INTO student (email, ime, priimek) VALUES ('peter.klepec','peter','klepec');";
+    $sql = "INSERT INTO student (email, ime, priimek) VALUES ('$email','$ime','$priimek');";
     mysqli_query($conn, $sql);
     mysqli_close($conn);
    ?>
